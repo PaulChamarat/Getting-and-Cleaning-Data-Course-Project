@@ -6,17 +6,18 @@ wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded acce
 linear acceleration and 3-axial angular velocity at a constant rate of 50Hz.
 
 These are activities from the "activity_labels.txt"
+```
 1 WALKING
 2 WALKING_UPSTAIRS
 3 WALKING_DOWNSTAIRS
 4 SITTING
 5 STANDING
 6 LAYING
-
+```
 
 The orginal variable names. These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-
+```
 tBodyAcc-XYZ
 tGravityAcc-XYZ
 tBodyAccJerk-XYZ
@@ -34,9 +35,10 @@ fBodyAccMag
 fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
+```
 
 The set of variables that were estimated from these signals are: 
-
+```
 mean(): Mean value
 std(): Standard deviation
 mad(): Median absolute deviation 
@@ -54,15 +56,15 @@ skewness(): skewness of the frequency domain signal
 kurtosis(): kurtosis of the frequency domain signal 
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 angle(): Angle between to vectors.
-
+```
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
-
+```
 gravityMean
 tBodyAccMean
 tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
-
+```
 Please refer to the completed list of features in the "features.txt"
 
 
